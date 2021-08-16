@@ -8,4 +8,5 @@ window.onload = function () {
     intro.addEventListener("ended", function () {
         loop.play();
     })
+    console.log("https://github.com/SamuelMereau/brain-training");
 }
