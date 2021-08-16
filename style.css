@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.scene,
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+#loading {
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#loading h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 25px;
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+
+#progress {
+    background-color: aqua;
+    width: 0px;
+    height: 100%;
+}
+
+#brain-age {
+    margin-top: 15px;
+}
